@@ -39,3 +39,4 @@ https://bugzilla.novell.com/show_bug.cgi?id=872054
 0. after manually installed grub2, check systemId
 1. system id is important: windows is 7, swamp is 82 and linux with 83: if not correct, then may caused grub not bootup with error: invalid arch independent ELF magic
 2. window7 BSD has the F8 with safe mode could debug dual-work
+3. chroot: mount --rbind /dev/.../sys/.../ mount -t proc /proc /mnt/proc
